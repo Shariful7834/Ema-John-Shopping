@@ -1,0 +1,20 @@
+.header {
+  background-color: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+.header a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 32px;
+  color: white;
+}
+.header a:hover {
+  color: #ff9900;
+}
