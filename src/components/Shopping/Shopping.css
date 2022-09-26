@@ -11,5 +11,6 @@
 .order-summary {
   background: #ffe0b3;
 
-  text-align: center;
+  text-align: left;
+  padding-left: 50px;
 }
