@@ -6,8 +6,8 @@ import "./Shopping.css";
 import { useLoaderData } from "react-router-dom";
 
 const Shopping = () => {
-  const products = useLoaderData();
-  const [cart, setCart] = useState([]);
+  const { products, initialCart } = useLoaderData();
+  const [cart, setCart] = useState(initialCart);
 
   // useEffect(() => {
   //   fetch("products.json")

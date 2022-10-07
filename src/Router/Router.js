@@ -14,17 +14,17 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        loader: () => productsAndCartLoader,
+        loader: productsAndCartLoader,
         element: <Shopping></Shopping>,
       },
       {
         path: "/Shopping",
-        loader: () => productsAndCartLoader,
+        loader: productsAndCartLoader,
         element: <Shopping></Shopping>,
       },
       {
         path: "/orders",
-        loader: () => fetch("products.json"),
+        loader: productsAndCartLoader,
         element: <Orders></Orders>,
       },
       { path: "/inventory", element: <Inventory></Inventory> },
