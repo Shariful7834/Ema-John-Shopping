@@ -17,6 +17,8 @@ Auth Configuration
     4. Make sure you set the children
     5. export AuthContext
     6. export AuthContext to be used inside useCOntext hook to another components or anywhere
+    7. get form data in signup page
+    8. getAuth in the UserContext
 
     
 
