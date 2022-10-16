@@ -5,11 +5,11 @@ export const productsAndCartLoader = async () => {
   const productsData = await fetch("products.json");
   const products = await productsData.json();
 
-  console.log(products);
+  // console.log(products);
   // get cart
   const saveCart = getStoredCart();
   const initialCart = [];
-  console.log(saveCart);
+  // console.log(saveCart);
   for (const id in saveCart) {
     const addedProduct = products.find((product) => product.id === id);
     if (addedProduct) {

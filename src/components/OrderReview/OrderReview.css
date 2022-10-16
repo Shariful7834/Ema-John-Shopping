@@ -1,6 +1,6 @@
 .review-container {
   border: 2px solid aquamarine;
-  margin: 5px;
+  margin-top: 12px;
 
   border-radius: 5px;
   display: flex;
@@ -17,4 +17,20 @@
 }
 .product-details p {
   margin: 0;
+}
+.dltbtn {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(233, 179, 179);
+  border: none;
+  border-radius: 50px;
+}
+.dltbtn:hover {
+  background-color: rgb(144, 66, 66);
+  cursor: pointer;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  color: tomato;
 }
