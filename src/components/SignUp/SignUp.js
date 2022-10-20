@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { AuthContext } from "../../context/UserContext";
 import "./SignUp.css";
 
@@ -27,6 +27,8 @@ const SignUp = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        form.reset();
+        <Navigate to="/"></Navigate>;
       })
       .catch((error) => console.error(error));
 
